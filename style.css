@@ -20,6 +20,21 @@ header {
     text-align: center;
 }
 
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     margin-top: 20px;
 }
@@ -30,3 +45,4 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
