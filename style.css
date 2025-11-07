@@ -7,22 +7,40 @@ body {
   text-align: left;
 }
 
-/* Новый стиль для страницы политики конфиденциальности */
-.hero-no-image {
-  background-color: #13579D; /* Цвет фона, как у основного фона */
-  height: 120px;  /* Уменьшаем высоту */
+/* Стиль только для страницы политики конфиденциальности */
+body.privacy-policy .hero-no-image {
+  background-color: #13579D;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;  /* Уменьшаем отступ снизу */
+  padding-bottom: 10px;
 }
 
-.hero-no-image h1 {
+body.privacy-policy .hero-no-image h1 {
   color: #ffffff;
   font-size: 38px;
   font-weight: bold;
   margin: 0;
+}
+
+body.privacy-policy main {
+  padding: 0 35px;
+  max-width: 750px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body.privacy-policy .content {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+body.privacy-policy .intro {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 /* Верхний блок с фоновым изображением */
