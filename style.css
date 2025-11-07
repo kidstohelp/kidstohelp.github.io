@@ -54,7 +54,7 @@ main {
 */
 
 main {
-  padding: 180px 15px 0 15px; /* сверху 180px, по бокам 15px */
+  padding: 180px 35px 0 35px; /* сверху 180px, по бокам 15px */
   max-width: 750px;
   margin: 0 auto;
   box-sizing: border-box; /* гарантирует, что padding не выйдет за max-width */
@@ -90,7 +90,9 @@ p {
 }
 
 .contact a {
-  display: inline-block;
+  display: inline-flex; /* чтобы использовать flex для центрирования текста */
+  justify-content: center; /* горизонтальное центрирование */
+  align-items: center;    /* вертикальное центрирование */
   background-color: #ffffff;
   color: #13579D;
   font-weight: bold;
@@ -99,6 +101,7 @@ p {
   border-radius: 40px;
   text-decoration: none;
   transition: transform 0.3s ease;
+  text-align: center; /* для надёжности */
 }
 
 /* Только анимация увеличения при наведении */
