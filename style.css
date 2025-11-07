@@ -13,7 +13,7 @@ body {
   background-image: url('header-bg.jpg'); /* замени на своё изображение */
   background-size: cover;
   background-position: center;
-  height: 320px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
