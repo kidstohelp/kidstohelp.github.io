@@ -45,10 +45,19 @@ body {
 }
 
 /* Основной контент */
+/* 
 main {
   padding-top: 180px;
   max-width: 750px;
   margin: 0 auto;
+}
+*/
+
+main {
+  padding: 180px 15px 0 15px; /* сверху 180px, по бокам 15px */
+  max-width: 750px;
+  margin: 0 auto;
+  box-sizing: border-box; /* гарантирует, что padding не выйдет за max-width */
 }
 
 .content {
