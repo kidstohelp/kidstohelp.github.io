@@ -13,9 +13,11 @@ body.privacy-policy .hero-no-image {
   height: 120px;  /* Уменьшаем высоту */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;  /* Выравниваем содержимое по левому краю */
-  padding: 0 35px;  /* Добавляем отступы по бокам */
+  justify-content: flex-start;  /* Выравниваем содержимое по верхнему краю */
+  align-items: flex-start;  /* Выравниваем по левому краю */
+  padding-left: 35px;  /* Добавляем отступ слева */
+  padding-right: 35px;  /* Отступ справа, чтобы текст не был прижат к краю */
+  padding-top: 10px;  /* Убираем лишний верхний отступ */
 }
 
 body.privacy-policy .hero-no-image h1 {
@@ -23,13 +25,13 @@ body.privacy-policy .hero-no-image h1 {
   font-size: 38px;
   font-weight: bold;
   margin: 0;
-  text-align: left;  /* Выравниваем текст по левому краю */
-  width: 100%;  /* Устанавливаем ширину в 100% для заголовка */
+  text-align: left;  /* Выравнивание по левому краю */
+  width: 100%;  /* Заголовок растягивается на всю ширину контейнера */
 }
 
 /* Уменьшаем пробел между заголовком и основным текстом */
 body.privacy-policy main {
-  padding-top: 0; /* Убираем верхний отступ, чтобы текст был ближе к заголовку */
+  padding-top: 10px; /* Убираем дополнительный отступ сверху */
 }
 
 body.privacy-policy .intro {
