@@ -77,11 +77,12 @@ p {
 .contact {
   display: flex;
   justify-content: center;
-  margin: 0px 0;
+  margin: 40px 0;
 }
 
 .contact a {
   display: inline-block;
+  width: fit-content;    /* кнопка точно по тексту */
   background-color: #ffffff;
   color: #13579D;
   font-weight: bold;
