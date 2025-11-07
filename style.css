@@ -16,8 +16,8 @@ body.privacy-policy .hero-no-image {
   justify-content: flex-start;  /* Выравниваем содержимое по верхнему краю */
   align-items: flex-start;  /* Выравниваем по левому краю */
   padding-left: 35px;  /* Добавляем отступ слева */
-  padding-right: 35px;  /* Отступ справа, чтобы текст не был прижат к краю */
-  padding-top: 10px;  /* Убираем лишний верхний отступ */
+  padding-top: 30px;  /* Убираем лишний верхний отступ */
+  padding-right: 35px; /* Отступ справа, чтобы текст не был прижат к краю */
 }
 
 body.privacy-policy .hero-no-image h1 {
@@ -27,16 +27,13 @@ body.privacy-policy .hero-no-image h1 {
   margin: 0;
   text-align: left;  /* Выравнивание по левому краю */
   width: 100%;  /* Заголовок растягивается на всю ширину контейнера */
+  max-width: 750px; /* Ограничение ширины заголовка */
 }
 
 /* Уменьшаем пробел между заголовком и основным текстом */
 body.privacy-policy main {
-  padding-top: 10px; /* Убираем дополнительный отступ сверху */
-}
+  padding-top: 0; /* Убир*
 
-body.privacy-policy .intro {
-  margin-top: 10px; /* Убираем дополнительный отступ */
-}
 
 body.privacy-policy .content {
   line-height: 1.6;
