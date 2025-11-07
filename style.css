@@ -23,26 +23,22 @@ body.privacy-policy .hero-no-image h1 {
   font-size: 38px;
   font-weight: bold;
   margin: 0;
-  text-align: left;  /* Выравнивание текста по левому краю */
+  text-align: left;  /* Выравниваем текст по левому краю */
   width: 100%;  /* Устанавливаем ширину в 100% для заголовка */
 }
 
+/* Уменьшаем пробел между заголовком и основным текстом */
 body.privacy-policy main {
-  padding: 0 35px;
-  max-width: 750px;
-  margin: 0 auto;
-  box-sizing: border-box;
+  padding-top: 0; /* Убираем верхний отступ, чтобы текст был ближе к заголовку */
+}
+
+body.privacy-policy .intro {
+  margin-top: 10px; /* Убираем дополнительный отступ */
 }
 
 body.privacy-policy .content {
   line-height: 1.6;
   color: #ffffff;
-}
-
-body.privacy-policy .intro {
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 25px;
 }
 
 /* Верхний блок с фоновым изображением */
