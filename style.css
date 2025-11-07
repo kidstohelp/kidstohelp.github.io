@@ -1,7 +1,7 @@
 /* Общие стили */
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Georgia", "Times New Roman", serif; /* шрифт с засечками */
   background-color: #13579D;
   color: #ffffff;
   text-align: left;
@@ -24,11 +24,11 @@ body {
 /* Логотип */
 .logo {
   position: absolute;
-  bottom: -90px; /* нависает над фоном */
-  width: 180px; /* увеличено ~на 30% */
+  bottom: -90px;
+  width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 6px solid #ffffff; /* белый ободок */
+  border: 6px solid #ffffff;
   background-color: #ffffff;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
@@ -39,14 +39,14 @@ body {
   position: absolute;
   bottom: -150px;
   color: #ffffff;
-  font-size: 38px; /* увеличено */
+  font-size: 38px;
   font-weight: bold;
   margin: 0;
 }
 
 /* Основной контент */
 main {
-  padding-top: 220px; /* чтобы не налезало на логотип */
+  padding-top: 220px;
   max-width: 750px;
   margin: 0 auto;
 }
@@ -89,19 +89,20 @@ p {
   padding: 10px 30px;
   border-radius: 40px;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
+/* Только анимация увеличения при наведении */
 .contact a:hover {
-  background-color: #FFD700;
-  color: #13579D;
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
-/* Нижний колонтитул */
+/* Подвал */
 footer {
   margin-top: 40px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  background-color: #13579D; /* тот же цвет, что у фона */
   text-align: center;
+  font-size: 16px;
+  color: #ffffff;
 }
