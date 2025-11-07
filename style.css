@@ -82,7 +82,6 @@ p {
 
 .contact a {
   display: inline-block;
-  width: fit-content;    /* кнопка точно по тексту */
   background-color: #ffffff;
   color: #13579D;
   font-weight: bold;
