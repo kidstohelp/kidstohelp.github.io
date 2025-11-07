@@ -7,39 +7,6 @@ body {
   text-align: left;
 }
 
-/* Стиль для страницы политики конфиденциальности */
-body.privacy-policy .hero-no-image {
-  background-color: #13579D; /* Цвет фона */
-  height: 120px;  /* Уменьшаем высоту */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;  /* Выравниваем содержимое по верхнему краю */
-  align-items: flex-start;  /* Выравниваем по левому краю */
-  padding-left: 35px;  /* Добавляем отступ слева */
-  padding-top: 30px;  /* Убираем лишний верхний отступ */
-  padding-right: 35px; /* Отступ справа, чтобы текст не был прижат к краю */
-}
-
-body.privacy-policy .hero-no-image h1 {
-  color: #ffffff;
-  font-size: 38px;
-  font-weight: bold;
-  margin: 0;
-  text-align: left;  /* Выравнивание по левому краю */
-  width: 100%;  /* Заголовок растягивается на всю ширину контейнера */
-  max-width: 750px; /* Ограничение ширины заголовка */
-}
-
-/* Уменьшаем пробел между заголовком и основным текстом */
-body.privacy-policy main {
-  padding-top: 0; /* Убир*
-
-
-body.privacy-policy .content {
-  line-height: 1.6;
-  color: #ffffff;
-}
-
 /* Верхний блок с фоновым изображением */
 .hero {
   position: relative;
