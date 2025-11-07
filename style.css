@@ -1,7 +1,7 @@
 /* Общие стили */
 body {
   margin: 0;
-  font-family: "Georgia", "Times New Roman", serif; /* шрифт с засечками */
+  font-family: "Georgia", "Times New Roman", serif;
   background-color: #13579D;
   color: #ffffff;
   text-align: left;
@@ -10,7 +10,7 @@ body {
 /* Верхний блок с фоновым изображением */
 .hero {
   position: relative;
-  background-image: url('header-bg.jpg'); /* замени на своё изображение */
+  background-image: url('header-bg.jpg');
   background-size: cover;
   background-position: center;
   height: 180px;
@@ -44,11 +44,28 @@ body {
   margin: 0;
 }
 
+/* Разделительная линия под Kidsto */
+.divider {
+  position: absolute;
+  bottom: -165px;
+  width: 120px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
 /* Основной контент */
 main {
-  padding-top: 180px;
-  max-width: 750px;
-  margin: 0 auto;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Контентная часть и кнопка одной ширины */
+.content, .contact {
+  width: 80%;
+  max-width: 500px; /* одинаковая ширина с кнопкой */
 }
 
 .content {
@@ -81,12 +98,14 @@ p {
 }
 
 .contact a {
-  display: inline-block;
+  display: block;
+  text-align: center;
+  width: 100%;
   background-color: #ffffff;
   color: #13579D;
   font-weight: bold;
   font-size: 18px;
-  padding: 10px 30px;
+  padding: 10px 0;
   border-radius: 40px;
   text-decoration: none;
   transition: transform 0.3s ease;
@@ -101,7 +120,7 @@ p {
 footer {
   margin-top: 40px;
   padding: 25px;
-  background-color: #13579D; /* тот же цвет, что у фона */
+  background-color: #13579D;
   text-align: center;
   font-size: 16px;
   color: #ffffff;
